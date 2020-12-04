@@ -1,14 +1,12 @@
 import dynamic from 'next/dynamic'
 
-import { useCallback, useEffect, useState, Fragment } from 'react'
+import { useCallback, Fragment } from 'react'
 import { useWindowSize } from 'react-use'
 
 import Card from 'components/Card'
 
 const Index = () => {
   const { width, height } = useWindowSize()
-
-  const [resize, setResize] = useState<boolean>(false)
 
   const BoidComponent = useCallback(() => {
     const Boid = dynamic(() => import('components/Boid'), {

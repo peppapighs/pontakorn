@@ -23,12 +23,6 @@ export default class Document extends NextDocument {
             type="font/woff2"
             crossOrigin="true"
           />
-          <link
-            rel="preload"
-            href="/fonts/Form.ttf"
-            as="font"
-            crossOrigin="true"
-          />
         </Head>
         <body>
           <Main />

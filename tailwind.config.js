@@ -21,7 +21,6 @@ module.exports = {
         'Kanit',
         ...defaultTheme.fontFamily.sans,
       ],
-      form: ['Form', ...defaultTheme.fontFamily.sans],
     },
   },
   variants: {},
@@ -70,13 +69,6 @@ module.exports = {
             fontDisplay: 'swap',
             src: "local('Sukhumvit Set')",
             unicodeRange: 'U+0E01-0E5B, U+200C-200D, U+25CC',
-          },
-        },
-        {
-          '@font-face': {
-            fontFamily: 'Form',
-            fontDisplay: 'swap',
-            src: 'url("/fonts/Form.ttf")',
           },
         },
       ])
