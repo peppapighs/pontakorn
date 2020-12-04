@@ -1,4 +1,9 @@
 {
+  "name": "pontakorn",
+  "version": "1.0.0",
+  "author": "PeppaPigHS",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
