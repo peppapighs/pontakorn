@@ -11,10 +11,10 @@ const Boid = ({ ...rest }) => {
   const ref = useRef<HTMLDivElement>()
 
   const pixiApp = useRef<PIXI.Application>()
+  const interact = useRef<PIXI.InteractionManager>()
+
   const boidState = useRef<CBoid[]>([])
   const boid = useRef<PIXI.Sprite[]>([])
-
-  const mousePos = useRef<Vector>(new Vector(0, 0))
 
   const texture = PIXI.Texture.from('/fish.svg')
 
@@ -24,7 +24,10 @@ const Boid = ({ ...rest }) => {
         delta,
         width,
         height,
-        mousePos.current,
+        new Vector(
+          interact.current.mouse.global.x,
+          interact.current.mouse.global.y
+        ),
         boidState.current
       )
 
@@ -43,16 +46,14 @@ const Boid = ({ ...rest }) => {
   }
 
   useEffect(() => {
-    ref.current.addEventListener('mousemove', (e: MouseEvent) => {
-      mousePos.current = new Vector(e.clientX, e.clientY)
-    })
-
     pixiApp.current = new PIXI.Application({
       width: width,
       height: height,
       transparent: true,
       antialias: true,
     })
+
+    interact.current = new PIXI.InteractionManager(pixiApp.current.renderer)
 
     for (let i = 0; i < getBoidCount(); i++) {
       boidState.current.push(
