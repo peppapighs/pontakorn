@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const Navbar = () => {
   return (
-    <Disclosure as="header" className="bg-gray-900">
+    <Disclosure as="header" className="z-10 bg-gray-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
