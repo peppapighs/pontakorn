@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Pontakorn | Software Engineer</title>
+        <title>Pontakorn Prasertsuk</title>
       </Head>
       <Layout>
         <section className="flex min-h-screen flex-col bg-gray-900">
