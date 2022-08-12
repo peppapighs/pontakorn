@@ -16,7 +16,7 @@ const Navbar = () => {
                     Works
                   </a>
                 </Link>
-                <Link href="#">
+                <Link href="/about">
                   <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white">
                     About
                   </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   Works
                 </Disclosure.Button>
               </Link>
-              <Link href="#" passHref>
+              <Link href="/about" passHref>
                 <Disclosure.Button
                   as="a"
                   className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
