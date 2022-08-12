@@ -18,13 +18,15 @@ const About = () => {
           <div className="mx-auto max-w-7xl py-8 px-4 sm:px-6 lg:px-8">
             <div className="mt-8 lg:grid lg:grid-cols-3 lg:gap-8">
               <div className="relative mx-auto max-w-prose lg:col-start-3 lg:row-start-1 lg:max-w-none">
-                <Image
-                  className="rounded-lg object-cover object-center shadow-lg"
-                  src="/assets/portrait.jpg"
-                  alt="My photo"
-                  width={480}
-                  height={540}
-                />
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-lg object-cover object-center shadow-lg"
+                    src="/assets/portrait.jpg"
+                    alt="My photo"
+                    width={360}
+                    height={480}
+                  />
+                </div>
               </div>
               <div className="col-span-2 mt-8 lg:mt-0">
                 <div className="prose mx-auto text-gray-700 lg:col-start-1 lg:row-start-1 lg:max-w-none">
