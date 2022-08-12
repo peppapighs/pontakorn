@@ -22,7 +22,9 @@ const Navbar = () => {
                   </a>
                 </Link>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1sAqpmVhjSSHcdCSlAvPm_kW2I7XFjn-c/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
                 >
                   Resume
@@ -62,7 +64,9 @@ const Navbar = () => {
               </Link>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="https://drive.google.com/file/d/1sAqpmVhjSSHcdCSlAvPm_kW2I7XFjn-c/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
               >
                 Resume
