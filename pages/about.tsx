@@ -25,6 +25,7 @@ const About = () => {
                     alt="My photo"
                     width={360}
                     height={480}
+                    priority
                   />
                 </div>
               </div>
