@@ -3,7 +3,7 @@ import { MailIcon } from '@heroicons/react/solid'
 const Footer = () => {
   return (
     <footer>
-      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
           <h2 className="text-xl font-medium text-gray-900 sm:text-2xl">
             Feel free to follow me or contact me below
