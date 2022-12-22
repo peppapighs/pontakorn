@@ -11,15 +11,17 @@ const Navbar = () => {
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-end">
               <div className="hidden items-center space-x-4 sm:flex">
-                <Link href="/">
-                  <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white">
-                    Works
-                  </a>
+                <Link
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
+                  href="/"
+                >
+                  Works
                 </Link>
-                <Link href="/about">
-                  <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white">
-                    About
-                  </a>
+                <Link
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
+                  href="/about"
+                >
+                  About
                 </Link>
                 <a
                   href="https://drive.google.com/file/d/1iEqWuSP42ouCRpvrJBzpM_NbtgLcOS3D/view?usp=sharing"
