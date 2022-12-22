@@ -35,17 +35,9 @@ const About = () => {
                     I&apos;m Pontakorn, or you may call me Pep. I&apos;m an
                     undergraduate student at the National University of
                     Singapore, studying Computer Science with a minor in
-                    Statistics. As a full-stack software engineer intern, I
-                    apply my problem-solving skills to solve practical problems
-                    while while absorbing new skills and the latest
-                    technologies.
-                  </p>
-                  <p>
-                    Apart from computing, I love to play table tennis with my
-                    friends and learn new piano pieces in my free time. I also
-                    play some online games from time to time. Currently,
-                    I&apos;m based in Singapore but originally from Nonthaburi,
-                    Bangkok.
+                    Statistics. As a full-stack software engineer intern and a
+                    competitive programmer, I apply my problem-solving skills to
+                    solve real-world problems.
                   </p>
 
                   <h3>Education</h3>
@@ -64,6 +56,10 @@ const About = () => {
 
                   <h3>Experience</h3>
                   <ul>
+                    <li>
+                      <h4>Software Developer Intern, DRW</h4>
+                      <p>May 2023 - July 2023</p>
+                    </li>
                     <li>
                       <h4>Full-stack Software Engineer Intern, CVWO</h4>
                       <p>May 2022 - August 2022</p>

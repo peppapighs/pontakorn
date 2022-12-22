@@ -18,7 +18,7 @@ const Home = () => {
             </h2>
             <h1 className="text-3xl font-bold text-gray-100 sm:text-5xl">
               I&apos;m <span className="inline text-blue-300">Pontakorn</span>,
-              a CS undergrad who is passionate about algorithm.
+              a CS undergrad who is passionate about problem-solving.
             </h1>
             <h2 className="mt-12 text-lg font-bold text-gray-400 sm:text-2xl">
               Currently studying @ NUS

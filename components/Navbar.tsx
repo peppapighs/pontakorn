@@ -22,7 +22,7 @@ const Navbar = () => {
                   </a>
                 </Link>
                 <a
-                  href="https://drive.google.com/file/d/1sAqpmVhjSSHcdCSlAvPm_kW2I7XFjn-c/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1iEqWuSP42ouCRpvrJBzpM_NbtgLcOS3D/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-700 hover:text-white"
