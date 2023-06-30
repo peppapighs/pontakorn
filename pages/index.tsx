@@ -24,14 +24,14 @@ const Home = () => {
               Currently studying @ NUS
             </h2>
             <h2 className="text-lg font-bold text-gray-400 sm:text-2xl">
-              Previously a full-stack software engineer intern @{' '}
+               Software developer intern @{' '}
               <a
-                href="https://www.comp.nus.edu.sg/~vwo/"
+                href="https://drw.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline hover:underline"
               >
-                CVWO
+                DRW
               </a>
             </h2>
           </div>
