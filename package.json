@@ -9,10 +9,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.13.5",
+    "@react-three/postprocessing": "^2.14.13",
     "@t3-oss/env-nextjs": "^0.3.1",
+    "@types/three": "^0.154.0",
     "next": "^13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "three": "^0.154.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {
