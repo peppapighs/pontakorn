@@ -19,7 +19,12 @@ const config = {
     project: path.join(__dirname, "tsconfig.json"),
   },
   plugins: ["@typescript-eslint"],
-  extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  extends: [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+  ],
   rules: {
     "@typescript-eslint/consistent-type-imports": [
       "warn",
@@ -29,6 +34,35 @@ const config = {
       },
     ],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "import/order": [
+      "error",
+      {
+        groups: ["builtin", "external", "internal", ["parent", "sibling"]],
+        pathGroups: [
+          {
+            pattern: "react",
+            group: "external",
+            position: "before",
+          },
+          {
+            pattern: "next",
+            group: "external",
+            position: "before",
+          },
+          {
+            pattern: "next/*",
+            group: "external",
+            position: "before",
+          },
+        ],
+        pathGroupsExcludedImportTypes: ["react", "next", "next/*"],
+        "newlines-between": "always",
+        alphabetize: {
+          order: "asc",
+          caseInsensitive: true,
+        },
+      },
+    ],
   },
 };
 
