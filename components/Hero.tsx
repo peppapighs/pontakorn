@@ -2,7 +2,7 @@ export default function Hero({ ...props }) {
   return (
     <main {...props}>
       <div className="mx-auto max-w-2xl px-4">
-        <div className="rounded-lg bg-black p-8 ring-2 ring-white">
+        <div className="rounded-lg border-2 border-white bg-black p-8">
           <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
             $ pontakorn --help
           </h1>
@@ -28,9 +28,7 @@ export default function Hero({ ...props }) {
             , where I build high-performance, low-latency trading systems.
           </p>
           <div className="mt-6 text-center">
-            <p className="text-sm text-white">
-              &lt; Scroll down for more about me! &gt;
-            </p>
+            <p className="text-sm text-white">&lt; Scroll down! &gt;</p>
           </div>
         </div>
       </div>

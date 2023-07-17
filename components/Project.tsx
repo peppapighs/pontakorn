@@ -13,7 +13,7 @@ export default function Project() {
           <ul className="mt-8 space-y-8">
             {PROJECTS.map((project) => (
               <li key={project.title}>
-                <div className="rounded-lg bg-black p-8 ring-2 ring-white">
+                <div className="rounded-lg border-2 border-white bg-black p-8">
                   <p className="text-xl font-bold tracking-tight text-white">
                     {project.title}
                   </p>

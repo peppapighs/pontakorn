@@ -10,7 +10,7 @@ const LINKS = [
 export default function Footer() {
   return (
     <footer className="mx-auto max-w-7xl md:px-8">
-      <div className="flex w-full flex-col items-center justify-between p-8 ring-2 ring-white md:flex-row md:rounded-t-lg">
+      <div className="flex w-full flex-col items-center justify-between border-2 border-b-0 border-white p-8 md:flex-row md:rounded-t-lg">
         <div className="flex justify-center md:order-2">
           {LINKS.map((link, index) => (
             <p key={link.name} className="text-base font-bold text-white">
