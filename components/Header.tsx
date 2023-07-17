@@ -12,7 +12,8 @@ export default function Header({ ...props }) {
         <div className="flex flex-1">
           <Link href="/">
             <h1 className="rounded px-3 py-2 text-xl font-bold leading-8 text-white transition hover:ring-2 hover:ring-white">
-              Pontakorn
+              <span className="hidden sm:block">Pontakorn Prasertsuk</span>
+              <span className="sm:hidden">Pontakorn</span>
             </h1>
           </Link>
         </div>
