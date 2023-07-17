@@ -7,16 +7,8 @@ export default function Hero({ ...props }) {
             $ pontakorn --help
           </h1>
           <p className="mt-6 text-base text-white">
-            I&apos;m Pontakorn, a Computer Science undergrad from{" "}
-            <a
-              className="inline-block font-bold hover:underline"
-              rel="noreferrer"
-              href="https://nus.edu.sg"
-              target="_blank"
-            >
-              NUS
-            </a>
-            . I&apos;m currently a Software Developer Intern at{" "}
+            I&apos;m Pontakorn, a Computer Science undergrad based in Singapore.
+            I currently work as a Software Developer Intern at{" "}
             <a
               className="inline-block font-bold hover:underline"
               href="https://drw.com"
