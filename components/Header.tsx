@@ -11,7 +11,7 @@ export default function Header({ ...props }) {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
         <div className="flex flex-1">
           <Link href="/">
-            <h1 className="px-3 py-2 text-xl font-bold leading-8 text-white">
+            <h1 className="rounded px-3 py-2 text-xl font-bold leading-8 text-white transition hover:ring-2 hover:ring-white">
               Pontakorn
             </h1>
           </Link>
