@@ -1,8 +1,10 @@
 import Link from "next/link";
 
+import { RESUME } from "data/constants";
+
 const navigation = [
-  { name: "About Me", href: "/about" },
-  { name: "Resume", href: "/resume" },
+  { name: "About Me", href: "/about", external: false },
+  { name: "Resume", href: RESUME, external: true },
 ];
 
 export default function Header({ ...props }) {
@@ -18,15 +20,27 @@ export default function Header({ ...props }) {
           </Link>
         </div>
         <div className="flex justify-end gap-x-2 lg:gap-x-4">
-          {navigation.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="rounded px-3 py-2 text-base font-semibold leading-7 text-white transition hover:ring-2 hover:ring-white"
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.map((item) =>
+            item.external ? (
+              <a
+                key={item.name}
+                href={item.href}
+                rel="noreferrer"
+                target="_blank"
+                className="rounded px-3 py-2 text-base font-semibold leading-7 text-white transition hover:ring-2 hover:ring-white"
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="rounded px-3 py-2 text-base font-semibold leading-7 text-white transition hover:ring-2 hover:ring-white"
+              >
+                {item.name}
+              </Link>
+            )
+          )}
         </div>
       </nav>
     </header>

@@ -1,11 +1,4 @@
-const LINKS = [
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/pontakorn-prasertsuk/",
-  },
-  { name: "GitHub", href: "https://github.com/peppapighs" },
-  { name: "Email", href: "mailto:pontakorn@prasertsuk.com" },
-];
+import { LINKS } from "data/constants";
 
 export default function Footer() {
   return (
