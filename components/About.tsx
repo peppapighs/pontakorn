@@ -10,7 +10,7 @@ export default function About() {
             <p className="text-xl font-bold text-white">
               Nice to meet you again!
             </p>
-            <p className="mt-6 text-lg text-white">
+            <p className="mt-6 text-base text-white sm:text-lg">
               I&apos;m studying B.S. Computer Science at the National University
               of Singapore, specializing in Algorithm Theory and Parallel
               Computing. I was born and raised in Nonthaburi, Thailand, where I
@@ -20,7 +20,10 @@ export default function About() {
           </div>
           <div className="mt-8 flex">
             {LINKS.map((link, index) => (
-              <p key={link.name} className="text-xl font-bold text-white">
+              <p
+                key={link.name}
+                className="text-base font-bold text-white sm:text-xl"
+              >
                 <a
                   href={link.href}
                   rel="noreferrer"
