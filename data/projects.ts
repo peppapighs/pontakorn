@@ -7,6 +7,13 @@ interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    title: "delegate",
+    description:
+      "A C++ header-only library, delivering high-performance delegation with minimal overhead.",
+    tech: ["C++"],
+    links: [{ name: "GitHub", href: "https://github.com/peppapighs/delegate" }],
+  },
+  {
     title: "Curl HTTP/2 optimization",
     description:
       "A patch for Curl that improves HTTP/2 performance by reducing the number of TLS records and TCP packets sent.",
