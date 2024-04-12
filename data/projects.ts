@@ -61,12 +61,12 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    title: "auto-clicker",
+    title: "AutoClicker",
     description:
       "A GUI application for automating mouse clicks. The application sends mouse clicks to inactive windows without stealing focus.",
-    tech: ["C#", ".NET", "Windows API"],
+    tech: ["C#", ".NET Framework", "Windows API"],
     links: [
-      { name: "GitHub", href: "https://github.com/peppapighs/auto-clicker" },
+      { name: "GitHub", href: "https://github.com/peppapighs/AutoClicker" },
     ],
   },
   {
