@@ -7,6 +7,6 @@ export const LINKS = [
     href: "https://www.linkedin.com/in/pontakorn-prasertsuk/",
   },
   { name: "GitHub", href: "https://github.com/peppapighs" },
-  { name: "Email", href: "mailto:pontakorn@prasertsuk.com" },
+  { name: "Email", href: "mailto:ptk.prasertsuk@gmail.com" },
   { name: "Resume", href: RESUME },
 ];

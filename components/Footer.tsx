@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
         <div className="mt-6 md:order-1 md:mt-0">
           <p className="text-center text-base leading-5 text-white">
-            (c) 2023 Pontakorn Prasertsuk
+            (c) 2024 Pontakorn Prasertsuk
           </p>
         </div>
       </div>
