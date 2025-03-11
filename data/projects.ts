@@ -7,6 +7,13 @@ interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    title: "libhmk",
+    description:
+      "A generic Hall-effect keyboard library, with web-based configuration tool.",
+    tech: ["C"],
+    links: [{ name: "GitHub", href: "https://github.com/peppapighs/libhmk" }],
+  },
+  {
     title: "delegate",
     description:
       "A C++ header-only library, delivering high-performance delegation with minimal overhead.",
